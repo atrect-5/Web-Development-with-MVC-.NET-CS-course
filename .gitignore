@@ -1,0 +1,83 @@
+# Archivo .gitignore para proyectos .NET con MVC
+
+## Archivos de usuario y configuraciones de IDE
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpetas de IDE (Visual Studio, VS Code, Rider)
+.vs/
+.vscode/
+*.njsproj
+
+## Directorios de compilación (bin y obj)
+**/[Bb]in/
+**/[Oo]bj/
+
+## Archivos de publicación
+**/[Pp]ublish/
+**/[Pp]ublishProfiles/
+
+## Archivos de caché y temporales de .NET
+*.dswa.cache.json
+*.rjimswa.dswa.cache.json
+*.staticwebassets.runtime.json
+*.staticwebassets.build.json
+*.staticwebassets.development.json
+
+## Paquetes NuGet
+**/packages/
+*.nupkg
+
+## Secretos y configuraciones de entorno
+appsettings.Development.json
+secrets.json
+
+# Archivos de log y diagnóstico
+*.log
+*.tlog
+*.tracelog
+*.DS_Store
+
+## Herramientas de testing y cobertura de código
+*.CodeAnalysisLog.xml
+*.lastcodeanalysissucceeded
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.sdf
+*.tmp
+*.psess
+*.vsp
+*.vspx
+*.sap
+TestResult.xml
+*.visualState
+
+## Archivos generados por el sistema operativo
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Archivos de Resharper (si lo usas)
+_ReSharper*/
+*.[Rr]esharper
+*.DotSettings.user
+
+# Notas
+Notas*
